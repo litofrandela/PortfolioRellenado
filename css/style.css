@@ -1,0 +1,261 @@
+*{
+    margin: auto;
+    
+}
+
+.mf{
+    background-color: rgb(43, 43, 43);
+}
+
+
+.af{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+
+}
+
+.af.kjh{
+    background-color: rgba(0, 0, 0, 0.055);
+    border-radius: 20px;
+}
+
+.fa{
+    color: white;
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.fa.mirabien{
+    font-size: 1.4em;
+}
+
+.fa.mira{
+    font-size: 1.3em;
+    background-color: rgba(0, 0, 0, 0.055);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight:300;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lqe{
+    text-align: center;
+    
+    color: white;
+
+}
+
+.lqe.kjh{
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+
+#whatsapp{
+    width: 70px;
+}
+
+#instagram{
+    width: 70px;
+}
+
+#facebook{
+    width: 50px;
+}
+
+.pila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        padding: 30px;
+        padding-right: 20px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        width: 365px;
+        box-sizing: content-box;
+}
+
+.lid{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.lia{
+    color: white;
+    font-size: 2em;
+}
+
+.ali{
+    color: white;
+    font-size: 2em;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+
+    .lia{
+        color: white;
+        font-size: 1.5em;
+
+    }
+
+    .ali{
+        color: white;
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+     #whatsapp{
+        width: 50px;
+    }
+
+    #instagram{
+        width: 50px;
+    }
+
+    #facebook{
+        width: 30px;
+    }
+
+    .lia{
+        color: white;
+        font-size: 1.2em;
+
+    }
+
+    .ali{
+        color: white;
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    .fa.mira{
+        font-size: 1.3em;
+        background-color: black;
+        padding: 10px;
+        font-weight:300;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .lqe.kjh{
+        font-size: 1.2em;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .pila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        padding: 30px;
+        padding-right: 20px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        width: 72%;
+        box-sizing: content-box;
+}
+
+}
+
+/* Apartado para el formulario */
+
+.formulario{
+    width: 380px;
+    background-color: black;
+    padding: 30px;
+    padding-right: 0%;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 7px 13px 37px #000;
+    display: flexbox;
+    box-sizing: content-box;
+    color: rgb(255, 255, 255); 
+}
+
+.pli{
+    font-size: 20em;
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 28px;
+    
+}
+
+.but button{
+    color: white;
+    border: none;
+    padding: 0px 100px;
+    background: none;
+    font-size: 1.5em;
+}
+
+.formulario h1{
+    text-align: left;
+}
+
+.formulario input{
+    width: 95%;
+    background: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255); 
+}
+
+.formulario input:hover{
+    background: rgb(41, 35, 85);
+
+}
+
+@media screen and (max-width:425px) {
+    .formulario{
+        width: 260px;
+    }
+
+    .formulario h1{
+        text-align: left;
+    }
+    .formulario input{
+        width: 90%;
+        background: black;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid green;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        transition: 1s;
+    }
+}
